@@ -2,10 +2,10 @@ configuration:
   projectName: Spring Cloud
   
 security:
-  oauth2:
-    client:
-      clientId: contact-service
-      clientSecret: contact-pass
-      accessTokenUri: http://auth-service:5000/oauth/token
-      grant-type: client_credentials
-      scope: server
+    oauth2:
+        client:
+            clientId: contact-service
+            clientSecret: contact-pass
+            accessTokenUri: http://auth-service:5000/oauth/token
+            grant-type: client_credentials
+            scope: server
