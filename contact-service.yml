@@ -6,6 +6,6 @@ security:
     client:
       clientId: contact-service
       clientSecret: contact-pass
-      accessTokenUri: http://auth-service:5000/auth/oauth/token
+      accessTokenUri: http://auth-service:5000/oauth/token
       grant-type: client_credentials
       scope: server
