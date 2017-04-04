@@ -1,10 +1,3 @@
-spring:
-    datasource:
-        username: root
-        password: 1234
-        url: jdbc:mysql://localhost:3306/diaspora?useEncoding=yes&useSSL=false&characterEncoding=UTF-8
-        driver-class-name: com.mysql.jdbc.Driver
-
 server:
     context-path: /auth
     port: 5000
